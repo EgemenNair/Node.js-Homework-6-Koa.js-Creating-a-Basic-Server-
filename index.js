@@ -6,3 +6,6 @@ const app = new Koa();
 
 // Setting a static port as constant:
 const port = 3000;
+
+// Listening for port:
+app.listen(port);
